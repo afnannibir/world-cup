@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* top banner */
+.top-banner {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+}
+
+.description {
+    margin-left: 106px;
+}
+
+
+
+.marcelo img {
+    width: 581px;
+    height: 613px;
+}
+
+.description h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.description p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.watch {
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fixed {
+    display: grid;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.upcoming,
+.all,
+.blog {
+    width: 252px;
+    height: 64px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+
+.blog {
+    background: #DD0000;
+}
+
+.trial {
+    display: flex;
+
+}
+
+.grid-container {
+    width: 66%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    margin-left: 10px;
+
+
+}
+
+.news img {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* .footballer img {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+} */
+
+.footballer .transfer {
+    border: 1px solid #161616;
+    width: 100px;
+    height: 32px;
+}
+
+.footballer p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+}
+
+footer {
+
+
+    background: #161616;
+}
+
+footer p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #FFFFFF1A;
+}
+
+.last {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    justify-content: space-between;
+}
